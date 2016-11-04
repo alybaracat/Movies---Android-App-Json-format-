@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="aucegypt.alybaracat.movies.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3498db"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:divider="#ecf0f1"
+        android:dividerHeight="1dp"
+        android:id="@+id/listView"></ListView>
+</RelativeLayout>
+
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+    tools:context="aucegypt.alybaracat.calculator.MainActivity">
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type your expression ="
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="1"
+        style="@style/CustomText2"
+        android:id="@+id/Button1"
+        android:nestedScrollingEnabled="false"
+        android:tag = "1"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"/> <!-- Add Selector File here to have click effect -->
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="2"
+        style="@style/CustomText2"
+        android:layout_weight="1"
+        android:id="@+id/Button2"
+        android:tag = "2"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="3"
+        android:id="@+id/Button3"
+        style="@style/CustomText2"
+        android:tag = "3"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            style="@style/CustomText2"
+
+            android:text="/"
+            android:id="@+id/Button4"
+            android:tag = "/"
+            android:background="@drawable/button_bg2"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="4"
+            style="@style/CustomText2"
+
+            android:id="@+id/Button5"
+            android:nestedScrollingEnabled="false"
+            android:tag = "4"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="5"
+            android:id="@+id/Button6"
+            style="@style/CustomText2"
+
+            android:tag = "5"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="6"
+            style="@style/CustomText2"
+
+            android:id="@+id/Button7"
+            android:tag = "6"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="*"
+            android:id="@+id/Button8"
+            style="@style/CustomText2"
+
+            android:tag = "*"
+            android:background="@drawable/button_bg2"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="7"
+            style="@style/CustomText2"
+
+            android:id="@+id/Button9"
+            android:nestedScrollingEnabled="false"
+            android:tag = "7"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="8"
+            android:id="@+id/Button10"
+            style="@style/CustomText2"
+
+            android:tag = "8"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="9"
+            android:id="@+id/Button11"
+            style="@style/CustomText2"
+
+            android:tag = "9"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="-"
+            android:id="@+id/Button12"
+            android:tag = "-"
+            style="@style/CustomText2"
+
+            android:background="@drawable/button_bg2"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="."
+            android:id="@+id/Button13"
+            style="@style/CustomText2"
+
+            android:nestedScrollingEnabled="false"
+            android:tag = "."
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="0"
+            style="@style/CustomText2"
+
+            android:id="@+id/Button14"
+            android:tag = "0"
+            android:background="@drawable/button_bg"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="C"
+            android:id="@+id/Button15"
+            style="@style/CustomText2"
+
+            android:tag = "C"
+            android:background="@drawable/button_bg3"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="+"
+            android:id="@+id/Button16"
+            style="@style/CustomText2"
+
+            android:tag = "+"
+            android:background="@drawable/button_bg2"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_weight="1"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/Button17"
+        style="@style/CustomText2"
+
+        android:tag = "="
+        android:background="@drawable/button_bg4"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
+>>>>>>> adf4058bbf1909c7201de2579c96e6064491c033

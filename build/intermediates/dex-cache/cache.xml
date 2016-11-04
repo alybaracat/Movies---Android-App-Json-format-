@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AlyBaracat/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.0_8fceda20632e0f861ff584e955210b7dc03145d7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_3ce923fcc3a8d64cfb1f5e11608494430f06cbd6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_1a31905200d531d16d9aaf25e7feb09e6b2228db/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_86994c105a32a3b4024d65cc10ba9f2821e7c0c6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_32b8304d96fa545d5f341d59405a260044f80a07/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="93eeaffd8bf3580ab844a6152fdbe3bfe22d9785">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_66ac7a31481fd6442f5fda09866fd6d77c1af96e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_1f2fc11fb06307b40da02c83a4451b4705e9bc51/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_488666482fdc06ba9fb6c2efcc2748cda7690ed9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_13ed7e1ba0adc4c17370e2aff141da0712889945/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_a103aa63e5c9a117919194b1541d51d75ebceb91/classes.dex" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19/classes.dex" />
+    </item>
+    <item
+        jar="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="9d99027195689de51e9ca79ad4eab8a8a510685a">
+        <dex dex="/Users/AlyBaracat/AndroidStudioProjects/Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fa79fa7e01b98115baf49fc0b35ce830ed124a3c/classes.dex" />
+    </item>
+
+</items>

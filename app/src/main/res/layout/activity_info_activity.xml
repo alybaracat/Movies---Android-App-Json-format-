@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context="aucegypt.alybaracat.movies.info_activity">
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#F5F5F5"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:showAsAction="withText"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image"
+                android:src="@drawable/profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:civ_border_color="#ecf0f1"
+
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/text"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_toRightOf="@+id/image"
+                android:paddingLeft="8dp"
+                android:text="Name"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        style="@style/CustomText"
+        android:layout_below="@+id/my_toolbar"
+        android:text="App designed by Aly Baracat :)"/>
+</RelativeLayout>

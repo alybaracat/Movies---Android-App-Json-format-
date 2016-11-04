@@ -1,0 +1,32 @@
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">Movies</string>
+
+    <style name="CustomText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#34495e</item>
+    </style>
+
+    <style name="CustomText1">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#556073</item>
+    </style>
+
+    <style name="CustomText2">
+=======
+    <string name="app_name">Calculator</string>
+    <style name="CustomText2"  >
+>>>>>>> adf4058bbf1909c7201de2579c96e6064491c033
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+<<<<<<< HEAD
+
+    <style name="TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Medium"></style>
+
+
+=======
+>>>>>>> adf4058bbf1909c7201de2579c96e6064491c033
+</resources>
